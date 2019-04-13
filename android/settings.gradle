@@ -1,0 +1,3 @@
+rootProject.name = 'PokemonGoResearchQuests'
+
+include ':app'
