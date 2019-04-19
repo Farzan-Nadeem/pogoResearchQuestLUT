@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import TitleCard from './TitleCard.js';
 import ResearchList from './ResearchList.js';
 import Swiper from './Swiper.js';
-import { ScrollView, StyleSheet, Text, Button, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, Button, Image, View } from 'react-native';
+import { landingImg } from './images/';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 
 // Move all of these to storage
@@ -32,40 +33,40 @@ const CatchQuests = [
 ];
 
 const BerryQuests = [
-  { task:"TASK", reward:"REWARD"},
-  { task: "Use 5 Berries while catching Pokemon", reward:"Growlithe encounter (shiny chance up)"},
-  { task: "Use 5 Razz Berries while catching Pokemon", reward:"Cubone encounter (shiny chance up)"},
-  { task: "Use 10 Pinap Berries while catching Pokemon", reward:"Magikarp encounter (shiny chance up)"},
-  ];
-  
-  const ThrowQuests = [
-  { task:"TASK", reward:"REWARD"},
-  { task: "Make 5 Great Curveball Throws in a row", reward:"Spinda encounter"},
-  { task: "Make 5 Nice Throws", reward:"Bidoof encounter or Voltorb encounter"},
-  { task: "Make 3 Great Throws", reward:"Gastly encounter (shiny chance up),  Lileep encounter or Anorith encounter"},
-  { task: "Make 3 Great Throws in a row", reward:"Onix encounter"},
-  { task: "Make 5 Great Curveball Throws in a row", reward:"Spinda encounter"},
-  { task: "Make 3 Excellent Throws in a row", reward:"Larvitar encounter (shiny chance)"},
-  ];
-  
-  const ManagemQuests = [
-  { task:"TASK", reward:"REWARD"},
-  { task: "Evolve a Pokemon", reward:"Eevee encounter or Sunkern encounter (shiny chance up)"},
-  { task: "Power up a Pokemon 5 times", reward:"Bulbasaur, Charmander or Squirtle encounter (shiny chance)"},
-  { task: "Use an item to evolve a Pokemon", reward:"Aerodactyl encounter (shiny chance)"},
-  { task: "Trade a Pokemon", reward:"Manectric encounter"},
-  { task: "Transfer 3 Pokemon", reward:"Vulpix encounter"},
-  { task: "Earn a candy walking with your buddy", reward:"Clefable encounter"},
-  { task: "Earn 5 Candies walking with your Buddy", reward:"Tentacruel encounter"},
-  { task: "Send 2 Gifts to Friends", reward:"Gastly encounter (shiny chance up)"},
-  ];
-  
-  const EggQuests = [
-  { task:"TASK", reward:"REWARD"},
-  { task: "Hatch an Egg" , reward:"Snubbull encounter (shiny chance) or Exeggcute encounter"},
-  { task: "Hatch 3 Eggs" , reward:"Magmar encounter"},
-  { task: "Hatch 5 Eggs" , reward:"Chansey encounter (plus 3 Rare Candy)"},
-  ];
+  { task: "TASK", reward: "REWARD" },
+  { task: "Use 5 Berries while catching Pokemon", reward: "Growlithe encounter (shiny chance up)" },
+  { task: "Use 5 Razz Berries while catching Pokemon", reward: "Cubone encounter (shiny chance up)" },
+  { task: "Use 10 Pinap Berries while catching Pokemon", reward: "Magikarp encounter (shiny chance up)" },
+];
+
+const ThrowQuests = [
+  { task: "TASK", reward: "REWARD" },
+  { task: "Make 5 Great Curveball Throws in a row", reward: "Spinda encounter" },
+  { task: "Make 5 Nice Throws", reward: "Bidoof encounter or Voltorb encounter" },
+  { task: "Make 3 Great Throws", reward: "Gastly encounter (shiny chance up),  Lileep encounter or Anorith encounter" },
+  { task: "Make 3 Great Throws in a row", reward: "Onix encounter" },
+  { task: "Make 5 Great Curveball Throws in a row", reward: "Spinda encounter" },
+  { task: "Make 3 Excellent Throws in a row", reward: "Larvitar encounter (shiny chance)" },
+];
+
+const ManagemQuests = [
+  { task: "TASK", reward: "REWARD" },
+  { task: "Evolve a Pokemon", reward: "Eevee encounter or Sunkern encounter (shiny chance up)" },
+  { task: "Power up a Pokemon 5 times", reward: "Bulbasaur, Charmander or Squirtle encounter (shiny chance)" },
+  { task: "Use an item to evolve a Pokemon", reward: "Aerodactyl encounter (shiny chance)" },
+  { task: "Trade a Pokemon", reward: "Manectric encounter" },
+  { task: "Transfer 3 Pokemon", reward: "Vulpix encounter" },
+  { task: "Earn a candy walking with your buddy", reward: "Clefable encounter" },
+  { task: "Earn 5 Candies walking with your Buddy", reward: "Tentacruel encounter" },
+  { task: "Send 2 Gifts to Friends", reward: "Gastly encounter (shiny chance up)" },
+];
+
+const EggQuests = [
+  { task: "TASK", reward: "REWARD" },
+  { task: "Hatch an Egg", reward: "Snubbull encounter (shiny chance) or Exeggcute encounter" },
+  { task: "Hatch 3 Eggs", reward: "Magmar encounter" },
+  { task: "Hatch 5 Eggs", reward: "Chansey encounter (plus 3 Rare Candy)" },
+];
 //
 
 class LandingActivity extends Component {
@@ -81,33 +82,35 @@ class LandingActivity extends Component {
     header: null,
   };
 
-  OpenLUTActivityFunction = () =>
-  { 
+  OpenLUTActivityFunction = () => {
     this.props.navigation.navigate('LUTActivity');
   }
 
-  render()
-  {
-     return(
-        <View style = { styles.container }>
+  render() {
+    return (
 
-           <Text style = { styles.ActivityNameTextCss }> Landing + {this.state.testText} </Text>
+      <View style={styles.landingContainer}>
+        <Image source={require('./images/landingLogo.png')}
+          style={styles.landingImg} />
 
-           <Button onPress = { this.OpenLUTActivityFunction } title = 'Open LUT Activity'/>
-         
-        </View>
-     );
+        <Text style={styles.titleText}>{"\n"}Pokemon Go Assistant{"\n"}</Text>
+
+        <Button style={styles.buttonStyle} title='Candy Tracker!' />
+        <Text></Text>
+        <Button style={styles.buttonStyle} onPress={this.OpenLUTActivityFunction} title='Encounter Lookup!' />
+      </View>
+    );
   }
 }
 
 class LUTActivity extends Component {
 
   static navigationOptions =
-   {
+    {
       title: 'LUTActivity',
       header: null,
-   };
- 
+    };
+
   render() {
     return (
       <View style={styles.container}>
@@ -169,12 +172,26 @@ class LUTActivity extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1
-  }, 
-  ActivityNameTextCss:
-  {
-     fontSize: 22,
-     color: 'black',
-     textAlign: 'center',
+  },
+  landingContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    backgroundColor: '#ecf0f1',
+    padding: 8,
+  },
+  landingImg: {
+    aspectRatio: 2.8,
+    width: null,
+    height: null,
+    resizeMode: 'contain'
+  },
+  titleText: {
+    textAlign: 'center',
+    fontSize: 22,
+  },
+  buttonStyle: {
+    flex: 3,
+    alignSelf: 'center',
   },
   slideContainer: {
     flex: 1,
@@ -193,10 +210,10 @@ const styles = StyleSheet.create({
 });
 
 const AppNavigator = createStackNavigator({
-    First: { screen: LandingActivity },
-    
-    LUTActivity: { screen: LUTActivity }
-  });
+  First: { screen: LandingActivity },
+
+  LUTActivity: { screen: LUTActivity }
+});
 
 const AppContainer = createAppContainer(AppNavigator);
-export default ()=><View style={{flex:1}}><AppContainer/></View>;
+export default () => <View style={{ flex: 1 }}><AppContainer /></View>;
