@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import TitleCard from './TitleCard.js';
 import ResearchList from './ResearchList.js';
 import Swiper from './Swiper.js';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, Button, View } from 'react-native';
+import { createStackNavigator, createAppContainer } from 'react-navigation';
 
+// Move all of these to storage
 const BattleQuests = [
   { task: "TASK", reward: "REWARD" },
   { task: "Battle in a Gym", reward: "Mankey or Mankey encounter" },
@@ -64,9 +66,46 @@ const BerryQuests = [
   { task: "Hatch 3 Eggs" , reward:"Magmar encounter"},
   { task: "Hatch 5 Eggs" , reward:"Chansey encounter (plus 3 Rare Candy)"},
   ];
+//
 
-type Props = {};
-export default class App extends Component<Props> {
+class LandingActivity extends Component {
+
+  constructor(props) {
+    super(props);
+
+    this.state = {};
+  }
+
+  static navigationOptions = {
+    title: 'Landing',
+  };
+
+  OpenLUTActivityFunction = () =>
+  { 
+    this.props.navigation.navigate('LUTActivity');
+  }
+
+  render()
+  {
+     return(
+        <View style = { styles.container }>
+
+           <Text style = { styles.ActivityNameTextCss }> Landing + {this.state.testText} </Text>
+
+           <Button onPress = { this.OpenLUTActivityFunction } title = 'Open LUT Activity'/>
+         
+        </View>
+     );
+  }
+}
+
+class LUTActivity extends Component {
+
+  static navigationOptions =
+   {
+      title: 'LUTActivity',
+   };
+ 
   render() {
     return (
       <View style={styles.container}>
@@ -128,6 +167,12 @@ export default class App extends Component<Props> {
 const styles = StyleSheet.create({
   container: {
     flex: 1
+  }, 
+  ActivityNameTextCss:
+  {
+     fontSize: 22,
+     color: 'black',
+     textAlign: 'center',
   },
   slideContainer: {
     flex: 1,
@@ -144,3 +189,12 @@ const styles = StyleSheet.create({
     backgroundColor: "rgba(200,20,20,0.3)"
   },
 });
+
+const AppNavigator = createStackNavigator({
+    First: { screen: LandingActivity },
+    
+    LUTActivity: { screen: LUTActivity }
+  });
+
+const AppContainer = createAppContainer(AppNavigator);
+export default ()=><View style={{flex:1}}><AppContainer/></View>;
