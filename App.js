@@ -78,6 +78,7 @@ class LandingActivity extends Component {
 
   static navigationOptions = {
     title: 'Landing',
+    header: null,
   };
 
   OpenLUTActivityFunction = () =>
@@ -104,6 +105,7 @@ class LUTActivity extends Component {
   static navigationOptions =
    {
       title: 'LUTActivity',
+      header: null,
    };
  
   render() {
