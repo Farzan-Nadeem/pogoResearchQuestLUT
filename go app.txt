@@ -1,0 +1,44 @@
+App ui
+Opening page
+	- Make title more appealing
+	- Make buttons more appealing
+
+lut:
+	- Table instead of individual rows
+	- Better colour scheme
+	- Push all of the static data into external file storage
+	- Performance increases? FlatView instead of scrollview? 
+	- Perhaps instead of sliding screen, buttons for each 
+		and on open creates a modal? 
+		- Modal data is set through state, to avoid multiple modal issue
+
+candy tracking:
+In built list for all pokemon storing:
+	- name
+	- total # candy needed for full evol
+	- walking distance required per candy
+
+User data will include:
+	- tracked pokemon 
+	- current amount of candy for pokemon
+
+Would be wonderful if I could get the data straight from the Go app and have it automatically refresh but thats
+out of scope for now
+
+Workflow for tracking a new pokemon:
+	- User select pokemon from drop list(?) <- alphabetical, perhaps implement search
+	- Inputs the current amount of candies that they have
+	- Then gets added to a list which displays
+		- Name, remaining candy, remaining walking distance
+
+The pokemon then gets added to a table, and is organized by remaining distance
+
+To update the remaining candy:
+	- Tap the row of the pokemon in the table, creates modal
+	- Modal is simplistic
+		-  Name of pokemon
+		-  [-]   [#]   [+]
+		-     [Enter]
+	- Would then update state and save to external file storage
+
+
