@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import TitleCard from './TitleCard.js';
 import ResearchList from './ResearchList.js';
 import Swiper from './Swiper.js';
-import { ScrollView, StyleSheet, Text, Button, Image, View } from 'react-native';
-import { landingImg } from './images/';
+import { ScrollView, StyleSheet, Text, Button, Image, View } from 'react-native'; 
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 
 // Move all of these to storage
@@ -86,6 +85,10 @@ class LandingActivity extends Component {
     this.props.navigation.navigate('LUTActivity');
   }
 
+  OpenCandyTrackerActivityFunction = () => { 
+    this.props.navigation.navigate('CandyTrackerActivity');
+  }
+
   render() {
     return (
 
@@ -95,11 +98,28 @@ class LandingActivity extends Component {
 
         <Text style={styles.titleText}>{"\n"}Pokemon Go Assistant{"\n"}</Text>
 
-        <Button style={styles.buttonStyle} title='Candy Tracker!' />
+        <Button style={styles.buttonStyle} onPress={this.OpenCandyTrackerActivityFunction} title='Candy Tracker!' />
         <Text></Text>
         <Button style={styles.buttonStyle} onPress={this.OpenLUTActivityFunction} title='Encounter Lookup!' />
       </View>
     );
+  }
+}
+
+class CandyTrackerActivity extends Component { 
+
+  static navigationOptions = {
+    title: 'CandyTrackerActivity',
+    header: null,
+  };
+
+
+  render() { 
+    return (
+      <View style={styles.container}>
+        <Text>Candy Tracking Not Implemented!</Text>
+      </View>
+    )
   }
 }
 
@@ -212,7 +232,9 @@ const styles = StyleSheet.create({
 const AppNavigator = createStackNavigator({
   First: { screen: LandingActivity },
 
-  LUTActivity: { screen: LUTActivity }
+  LUTActivity: { screen: LUTActivity },
+
+  CandyTrackerActivity: { screen: CandyTrackerActivity},
 });
 
 const AppContainer = createAppContainer(AppNavigator);
