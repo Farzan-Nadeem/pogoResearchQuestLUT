@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
+import { FlatList, StyleSheet, View } from 'react-native';
 import TitleCard from './TitleCard.js';
-import Swiper from './Swiper.js'; 
+import Swiper from './Swiper.js';
 import ResearchCard from './ResearchCard.js';
-import { FlatList, StyleSheet, View } from 'react-native'; 
 
 // Move all of these to storage
 const BattleQuests = [
@@ -89,7 +89,6 @@ export default class LUTActivity extends Component {
                     </View>
                     <View style={[styles.slideContainer, styles.slide2]}>
                         <TitleCard title="Catch Field Missions+Rewards" />
-
                         <FlatList
                             data={CatchQuests}
                             renderItem={({ item }) => (

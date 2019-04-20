@@ -27,9 +27,10 @@ export default class LandingActivity extends Component {
                     style={styles.landingImg} />
 
                 <Text style={styles.titleText}>{"\n"}Pokemon Go Assistant{"\n"}</Text>
+
                 <View style={styles.buttonContainer}>
                     <Button type='outline' color='darkslategrey' style={styles.buttonStyle} onPress={this.OpenCandyTrackerActivityFunction} title='Candy Tracker!' />
-                    <View style={{flexDirection:'column'}}>
+                    <View style={{ flexDirection: 'column' }}>
                         <Text>{"\n"} </Text>
                     </View>
                     <Button type='outline' color='darkslategrey' style={styles.buttonStyle} onPress={this.OpenLUTActivityFunction} title='Encounter Lookup!' />
@@ -41,16 +42,16 @@ export default class LandingActivity extends Component {
 
 const styles = StyleSheet.create({
     landingContainer: {
-        flex: 1, 
+        flex: 1,
         flexDirection: 'column',
         justifyContent: 'center',
         backgroundColor: 'lightcyan',
         padding: 8,
     },
     buttonContainer: {
-        flexDirection: 'row',    
-        justifyContent: 'center', 
-    }, 
+        flexDirection: 'row',
+        justifyContent: 'center',
+    },
     landingImg: {
         aspectRatio: 2.8,
         width: null,
