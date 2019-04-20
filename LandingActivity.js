@@ -4,7 +4,6 @@ import { StyleSheet, Text, Button, Image, View } from 'react-native';
 export default class LandingActivity extends Component {
     constructor(props) {
         super(props);
-
         this.state = {};
     }
 
@@ -23,16 +22,18 @@ export default class LandingActivity extends Component {
 
     render() {
         return (
-
             <View style={styles.landingContainer}>
                 <Image source={require('./images/landingLogo.png')}
                     style={styles.landingImg} />
 
                 <Text style={styles.titleText}>{"\n"}Pokemon Go Assistant{"\n"}</Text>
-
-                <Button style={styles.buttonStyle} onPress={this.OpenCandyTrackerActivityFunction} title='Candy Tracker!' />
-                <Text></Text>
-                <Button style={styles.buttonStyle} onPress={this.OpenLUTActivityFunction} title='Encounter Lookup!' />
+                <View style={styles.buttonContainer}>
+                    <Button type='outline' color='darkslategrey' style={styles.buttonStyle} onPress={this.OpenCandyTrackerActivityFunction} title='Candy Tracker!' />
+                    <View style={{flexDirection:'column'}}>
+                        <Text>{"\n"} </Text>
+                    </View>
+                    <Button type='outline' color='darkslategrey' style={styles.buttonStyle} onPress={this.OpenLUTActivityFunction} title='Encounter Lookup!' />
+                </View>
             </View>
         );
     }
@@ -40,11 +41,16 @@ export default class LandingActivity extends Component {
 
 const styles = StyleSheet.create({
     landingContainer: {
-        flex: 1,
+        flex: 1, 
+        flexDirection: 'column',
         justifyContent: 'center',
-        backgroundColor: '#ecf0f1',
+        backgroundColor: 'lightcyan',
         padding: 8,
     },
+    buttonContainer: {
+        flexDirection: 'row',    
+        justifyContent: 'center', 
+    }, 
     landingImg: {
         aspectRatio: 2.8,
         width: null,
@@ -54,9 +60,11 @@ const styles = StyleSheet.create({
     titleText: {
         textAlign: 'center',
         fontSize: 22,
+        color: '#0e0e0f',
+        fontWeight: 'bold'
     },
     buttonStyle: {
-        flex: 3,
+        flex: 0.8,
         alignSelf: 'center',
     },
 });

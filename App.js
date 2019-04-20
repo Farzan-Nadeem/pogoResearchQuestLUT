@@ -6,7 +6,7 @@ import LUTActivity from './LUTActvity.js';
 import CandyTrackerActivity from './CandyTrackerActivity.js';
 
 const AppNavigator = createStackNavigator({
-  First: { screen: LandingActivity },
+  LandingActivity: { screen: LandingActivity },
 
   LUTActivity: { screen: LUTActivity },
 
