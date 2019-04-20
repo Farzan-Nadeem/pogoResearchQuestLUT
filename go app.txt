@@ -1,13 +1,5 @@
-App ui
-Opening page
-	- Make title more appealing
-	- Make buttons more appealing
-
 lut:
-	- Table instead of individual rows
-	- Better colour scheme
 	- Push all of the static data into external file storage
-	- Performance increases? FlatView instead of scrollview? 
 	- Perhaps instead of sliding screen, buttons for each 
 		and on open creates a modal? 
 		- Modal data is set through state, to avoid multiple modal issue
@@ -41,4 +33,5 @@ To update the remaining candy:
 		-     [Enter]
 	- Would then update state and save to external file storage
 
-
+Will also need to create funcitonality for deleting tracking information for pokemon
+	- Can add to above modal, just have a delete tracking button under [Enter]
