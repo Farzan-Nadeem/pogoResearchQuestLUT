@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, Dimensions } from 'react-native';
 
-
-export default class ResearchCard extends Component<Props> {
+export default class ResearchCard extends Component{
     render() { 
         return (
             <View style={styles.titleContainer}>
@@ -21,18 +20,17 @@ const styles = StyleSheet.create({
     titleContainer: { 
         flex: 1,
         flexDirection: 'row', 
-        justifyContent: "center",
-        width: Dimensions.get('window').width - 10,
-        paddingTop: 15,
-        paddingBottom: 15,
+        width: Dimensions.get('window').width - 5,
         backgroundColor: 'whitesmoke',
+        justifyContent: "center", 
+        paddingTop: 12,
+        paddingBottom: 12,
+        marginBottom: 3,
         borderRadius: 4,
-        borderWidth: 0.5,
+        borderWidth: 1,
+        borderColor: 'black', 
         fontSize: 20,
         fontWeight: 'bold',
-        borderColor: 'black',
-        marginTop: 5,
-        marginBottom: 5
       },
       halfContainer1: { 
         width: Dimensions.get('window').width/2,

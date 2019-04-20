@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import TitleCard from './TitleCard.js';
-import ResearchList from './ResearchList.js';
-import Swiper from './Swiper.js';
-import { ScrollView, StyleSheet, Text, Button, Image, View } from 'react-native';
+import Swiper from './Swiper.js'; 
+import ResearchCard from './ResearchCard.js';
+import { FlatList, StyleSheet, View } from 'react-native'; 
 
 // Move all of these to storage
 const BattleQuests = [
@@ -79,52 +79,59 @@ export default class LUTActivity extends Component {
             <View style={styles.container}>
                 <Swiper>
                     <View style={[styles.slideContainer, styles.slide1]}>
-                        <ScrollView>
-                            <View style={{ flex: 1, flexDirection: 'column' }}>
-                                <TitleCard title="Battle Field Missions+Rewards" />
-                                <ResearchList items={BattleQuests} />
-                            </View>
-                        </ScrollView>
+                        <TitleCard title="Battle Missions+Rewards" />
+                        <FlatList
+                            data={BattleQuests}
+                            renderItem={({ item }) => (
+                                <ResearchCard task={item.task} reward={item.reward} />
+                            )}
+                        />
                     </View>
                     <View style={[styles.slideContainer, styles.slide2]}>
-                        <ScrollView>
-                            <View style={{ flex: 1, flexDirection: 'column' }}>
-                                <TitleCard title="Catch Field Missions+Rewards" />
-                                <ResearchList items={CatchQuests} />
-                            </View>
-                        </ScrollView>
+                        <TitleCard title="Catch Field Missions+Rewards" />
+
+                        <FlatList
+                            data={CatchQuests}
+                            renderItem={({ item }) => (
+                                <ResearchCard task={item.task} reward={item.reward} />
+                            )}
+                        />
                     </View>
                     <View style={[styles.slideContainer, styles.slide3]}>
-                        <ScrollView>
-                            <View style={{ flex: 1, flexDirection: 'column' }}>
-                                <TitleCard title="Berry Field Missions+Rewards" />
-                                <ResearchList items={BerryQuests} />
-                            </View>
-                        </ScrollView>
+                        <TitleCard title="Berry Field Missions+Rewards" />
+                        <FlatList
+                            data={BerryQuests}
+                            renderItem={({ item }) => (
+                                <ResearchCard task={item.task} reward={item.reward} />
+                            )}
+                        />
                     </View>
                     <View style={[styles.slideContainer, styles.slide1]}>
-                        <ScrollView>
-                            <View style={{ flex: 1, flexDirection: 'column' }}>
-                                <TitleCard title="Pokeball + Throw Field Missions+Rewards" />
-                                <ResearchList items={ThrowQuests} />
-                            </View>
-                        </ScrollView>
+                        <TitleCard title="Pokeball + Throw Field Missions+Rewards" />
+                        <FlatList
+                            data={ThrowQuests}
+                            renderItem={({ item }) => (
+                                <ResearchCard task={item.task} reward={item.reward} />
+                            )}
+                        />
                     </View>
                     <View style={[styles.slideContainer, styles.slide2]}>
-                        <ScrollView>
-                            <View style={{ flex: 1, flexDirection: 'column' }}>
-                                <TitleCard title="Pokemon Management + Evolution Field Missions+Rewards" />
-                                <ResearchList items={ManagemQuests} />
-                            </View>
-                        </ScrollView>
+                        <TitleCard title="Pokemon Management + Evolution Field Missions+Rewards" />
+                        <FlatList
+                            data={ManagemQuests}
+                            renderItem={({ item }) => (
+                                <ResearchCard task={item.task} reward={item.reward} />
+                            )}
+                        />
                     </View>
                     <View style={[styles.slideContainer, styles.slide3]}>
-                        <ScrollView>
-                            <View style={{ flex: 1, flexDirection: 'column' }}>
-                                <TitleCard title="Egg Hatching Field Missions+Rewards" />
-                                <ResearchList items={EggQuests} />
-                            </View>
-                        </ScrollView>
+                        <TitleCard title="Egg Hatching Field Missions+Rewards" />
+                        <FlatList
+                            data={EggQuests}
+                            renderItem={({ item }) => (
+                                <ResearchCard task={item.task} reward={item.reward} />
+                            )}
+                        />
                     </View>
                 </Swiper>
             </View>
@@ -142,12 +149,12 @@ const styles = StyleSheet.create({
         justifyContent: "center"
     },
     slide1: {
-        backgroundColor: "rgba(20,20,200,0.3)"
+        backgroundColor: "lightskyblue"
     },
     slide2: {
-        backgroundColor: "rgba(20,200,20,0.3)"
+        backgroundColor: "khaki"
     },
     slide3: {
-        backgroundColor: "rgba(200,20,20,0.3)"
+        backgroundColor: "tomato"
     },
 });
