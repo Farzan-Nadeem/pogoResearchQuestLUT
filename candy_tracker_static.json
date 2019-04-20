@@ -1,0 +1,1340 @@
+[
+    {
+        "dex": 1,
+        "name": "Bulbasaur",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 2,
+        "name": "Ivysaur",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 4,
+        "name": "Charmander",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 5,
+        "name": "Charmeleon",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 7,
+        "name": "Squirtle",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 8,
+        "name": "Wartortle",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 10,
+        "name": "Caterpie",
+        "kmBuddyDistance": 1,
+        "candyCost": 62
+    },
+    {
+        "dex": 11,
+        "name": "Metapod",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 13,
+        "name": "Weedle",
+        "kmBuddyDistance": 1,
+        "candyCost": 62
+    },
+    {
+        "dex": 14,
+        "name": "Kakuna",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 16,
+        "name": "Pidgey",
+        "kmBuddyDistance": 1,
+        "candyCost": 62
+    },
+    {
+        "dex": 17,
+        "name": "Pidgeotto",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 19,
+        "name": "Rattata",
+        "kmBuddyDistance": 1,
+        "candyCost": 25
+    },
+    {
+        "dex": 21,
+        "name": "Spearow",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 23,
+        "name": "Ekans",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 25,
+        "name": "Pikachu",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 27,
+        "name": "Sandshrew",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 29,
+        "name": "Nidoran",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 30,
+        "name": "Nidorina",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 32,
+        "name": "Nidoran",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 33,
+        "name": "Nidorino",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 35,
+        "name": "Clefairy",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 37,
+        "name": "Vulpix",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 39,
+        "name": "Jigglypuff",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 41,
+        "name": "Zubat",
+        "kmBuddyDistance": 1,
+        "candyCost": 125
+    },
+    {
+        "dex": 42,
+        "name": "Golbat",
+        "kmBuddyDistance": 1,
+        "candyCost": 100
+    },
+    {
+        "dex": 43,
+        "name": "Oddish",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 44,
+        "name": "Gloom",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 46,
+        "name": "Paras",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 48,
+        "name": "Venonat",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 50,
+        "name": "Diglett",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 52,
+        "name": "Meowth",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 54,
+        "name": "Psyduck",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 56,
+        "name": "Mankey",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 58,
+        "name": "Growlithe",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 60,
+        "name": "Poliwag",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 61,
+        "name": "Poliwhirl",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 63,
+        "name": "Abra",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 64,
+        "name": "Kadabra",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 66,
+        "name": "Machop",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 67,
+        "name": "Machoke",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 69,
+        "name": "Bellsprout",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 70,
+        "name": "Weepinbell",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 72,
+        "name": "Tentacool",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 74,
+        "name": "Geodude",
+        "kmBuddyDistance": 1,
+        "candyCost": 125
+    },
+    {
+        "dex": 75,
+        "name": "Graveler",
+        "kmBuddyDistance": 1,
+        "candyCost": 100
+    },
+    {
+        "dex": 77,
+        "name": "Ponyta",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 79,
+        "name": "Slowpoke",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 81,
+        "name": "Magnemite",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 84,
+        "name": "Doduo",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 86,
+        "name": "Seel",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 88,
+        "name": "Grimer",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 90,
+        "name": "Shellder",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 92,
+        "name": "Gastly",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 93,
+        "name": "Haunter",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 95,
+        "name": "Onix",
+        "kmBuddyDistance": 5,
+        "candyCost": 50
+    },
+    {
+        "dex": 96,
+        "name": "Drowzee",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 98,
+        "name": "Krabby",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 100,
+        "name": "Voltorb",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 102,
+        "name": "Exeggcute",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 104,
+        "name": "Cubone",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 109,
+        "name": "Koffing",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 111,
+        "name": "Rhyhorn",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 112,
+        "name": "Rhydon",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 113,
+        "name": "Chansey",
+        "kmBuddyDistance": 5,
+        "candyCost": 50
+    },
+    {
+        "dex": 116,
+        "name": "Horsea",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 117,
+        "name": "Seadra",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 118,
+        "name": "Goldeen",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 120,
+        "name": "Staryu",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 123,
+        "name": "Scyther",
+        "kmBuddyDistance": 5,
+        "candyCost": 50
+    },
+    {
+        "dex": 125,
+        "name": "Electabuzz",
+        "kmBuddyDistance": 5,
+        "candyCost": 100
+    },
+    {
+        "dex": 126,
+        "name": "Magmar",
+        "kmBuddyDistance": 5,
+        "candyCost": 100
+    },
+    {
+        "dex": 129,
+        "name": "Magikarp",
+        "kmBuddyDistance": 1,
+        "candyCost": 400
+    },
+    {
+        "dex": 133,
+        "name": "Eevee",
+        "kmBuddyDistance": 5,
+        "candyCost": 25
+    },
+    {
+        "dex": 137,
+        "name": "Porygon",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 138,
+        "name": "Omanyte",
+        "kmBuddyDistance": 5,
+        "candyCost": 50
+    },
+    {
+        "dex": 140,
+        "name": "Kabuto",
+        "kmBuddyDistance": 5,
+        "candyCost": 50
+    },
+    {
+        "dex": 147,
+        "name": "Dratini",
+        "kmBuddyDistance": 5,
+        "candyCost": 125
+    },
+    {
+        "dex": 148,
+        "name": "Dragonair",
+        "kmBuddyDistance": 5,
+        "candyCost": 100
+    },
+    {
+        "dex": 152,
+        "name": "Chikorita",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 153,
+        "name": "Bayleef",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 155,
+        "name": "Cyndaquil",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 156,
+        "name": "Quilava",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 158,
+        "name": "Totodile",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 159,
+        "name": "Croconaw",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 161,
+        "name": "Sentret",
+        "kmBuddyDistance": 1,
+        "candyCost": 25
+    },
+    {
+        "dex": 163,
+        "name": "Hoothoot",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 165,
+        "name": "Ledyba",
+        "kmBuddyDistance": 1,
+        "candyCost": 25
+    },
+    {
+        "dex": 167,
+        "name": "Spinarak",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 170,
+        "name": "Chinchou",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 172,
+        "name": "Pichu",
+        "kmBuddyDistance": 1,
+        "candyCost": 75
+    },
+    {
+        "dex": 173,
+        "name": "Cleffa",
+        "kmBuddyDistance": 1,
+        "candyCost": 75
+    },
+    {
+        "dex": 174,
+        "name": "Igglybuff",
+        "kmBuddyDistance": 1,
+        "candyCost": 75
+    },
+    {
+        "dex": 175,
+        "name": "Togepi",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 176,
+        "name": "Togetic",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 177,
+        "name": "Natu",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 179,
+        "name": "Mareep",
+        "kmBuddyDistance": 5,
+        "candyCost": 125
+    },
+    {
+        "dex": 180,
+        "name": "Flaaffy",
+        "kmBuddyDistance": 5,
+        "candyCost": 100
+    },
+    {
+        "dex": 183,
+        "name": "Marill",
+        "kmBuddyDistance": 3,
+        "candyCost": 25
+    },
+    {
+        "dex": 187,
+        "name": "Hoppip",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 188,
+        "name": "Skiploom",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 191,
+        "name": "Sunkern",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 194,
+        "name": "Wooper",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 198,
+        "name": "Murkrow",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 200,
+        "name": "Misdreavus",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 204,
+        "name": "Pineco",
+        "kmBuddyDistance": 5,
+        "candyCost": 50
+    },
+    {
+        "dex": 207,
+        "name": "Gligar",
+        "kmBuddyDistance": 5,
+        "candyCost": 100
+    },
+    {
+        "dex": 209,
+        "name": "Snubbull",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 215,
+        "name": "Sneasel",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 216,
+        "name": "Teddiursa",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 218,
+        "name": "Slugma",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 220,
+        "name": "Swinub",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 223,
+        "name": "Remoraid",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 228,
+        "name": "Houndour",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 231,
+        "name": "Phanpy",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 233,
+        "name": "Porygon2",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 236,
+        "name": "Tyrogue",
+        "kmBuddyDistance": 5,
+        "candyCost": 25
+    },
+    {
+        "dex": 238,
+        "name": "Smoochum",
+        "kmBuddyDistance": 5,
+        "candyCost": 25
+    },
+    {
+        "dex": 239,
+        "name": "Elekid",
+        "kmBuddyDistance": 5,
+        "candyCost": 125
+    },
+    {
+        "dex": 240,
+        "name": "Magby",
+        "kmBuddyDistance": 5,
+        "candyCost": 125
+    },
+    {
+        "dex": 246,
+        "name": "Larvitar",
+        "kmBuddyDistance": 5,
+        "candyCost": 125
+    },
+    {
+        "dex": 247,
+        "name": "Pupitar",
+        "kmBuddyDistance": 5,
+        "candyCost": 100
+    },
+    {
+        "dex": 252,
+        "name": "Treecko",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 253,
+        "name": "Grovyle",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 255,
+        "name": "Torchic",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 256,
+        "name": "Combusken",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 258,
+        "name": "Mudkip",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 259,
+        "name": "Marshtomp",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 261,
+        "name": "Poochyena",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 263,
+        "name": "Zigzagoon",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 265,
+        "name": "Wurmple",
+        "kmBuddyDistance": 1,
+        "candyCost": 62
+    },
+    {
+        "dex": 266,
+        "name": "Silcoon",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 268,
+        "name": "Cascoon",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 270,
+        "name": "Lotad",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 271,
+        "name": "Lombre",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 273,
+        "name": "Seedot",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 274,
+        "name": "Nuzleaf",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 276,
+        "name": "Taillow",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 278,
+        "name": "Wingull",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 280,
+        "name": "Ralts",
+        "kmBuddyDistance": 5,
+        "candyCost": 125
+    },
+    {
+        "dex": 281,
+        "name": "Kirlia",
+        "kmBuddyDistance": 5,
+        "candyCost": 100
+    },
+    {
+        "dex": 283,
+        "name": "Surskit",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 285,
+        "name": "Shroomish",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 287,
+        "name": "Slakoth",
+        "kmBuddyDistance": 5,
+        "candyCost": 125
+    },
+    {
+        "dex": 288,
+        "name": "Vigoroth",
+        "kmBuddyDistance": 5,
+        "candyCost": 100
+    },
+    {
+        "dex": 290,
+        "name": "Nincada",
+        "kmBuddyDistance": 5,
+        "candyCost": 50
+    },
+    {
+        "dex": 293,
+        "name": "Whismur",
+        "kmBuddyDistance": 1,
+        "candyCost": 62
+    },
+    {
+        "dex": 294,
+        "name": "Loudred",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 296,
+        "name": "Makuhita",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 298,
+        "name": "Azurill",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 300,
+        "name": "Skitty",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 304,
+        "name": "Aron",
+        "kmBuddyDistance": 1,
+        "candyCost": 125
+    },
+    {
+        "dex": 305,
+        "name": "Lairon",
+        "kmBuddyDistance": 1,
+        "candyCost": 100
+    },
+    {
+        "dex": 307,
+        "name": "Meditite",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 309,
+        "name": "Electrike",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 315,
+        "name": "Roselia",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 316,
+        "name": "Gulpin",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 318,
+        "name": "Carvanha",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 320,
+        "name": "Wailmer",
+        "kmBuddyDistance": 1,
+        "candyCost": 400
+    },
+    {
+        "dex": 322,
+        "name": "Numel",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 325,
+        "name": "Spoink",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 328,
+        "name": "Trapinch",
+        "kmBuddyDistance": 5,
+        "candyCost": 125
+    },
+    {
+        "dex": 329,
+        "name": "Vibrava",
+        "kmBuddyDistance": 5,
+        "candyCost": 100
+    },
+    {
+        "dex": 331,
+        "name": "Cacnea",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 333,
+        "name": "Swablu",
+        "kmBuddyDistance": 1,
+        "candyCost": 400
+    },
+    {
+        "dex": 339,
+        "name": "Barboach",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 341,
+        "name": "Corphish",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 343,
+        "name": "Baltoy",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 345,
+        "name": "Lileep",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 347,
+        "name": "Anorith",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 349,
+        "name": "Feebas",
+        "kmBuddyDistance": 5,
+        "candyCost": 100
+    },
+    {
+        "dex": 353,
+        "name": "Shuppet",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 355,
+        "name": "Duskull",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 356,
+        "name": "Dusclops",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 360,
+        "name": "Wynaut",
+        "kmBuddyDistance": 3,
+        "candyCost": 25
+    },
+    {
+        "dex": 361,
+        "name": "Snorunt",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 363,
+        "name": "Spheal",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 364,
+        "name": "Sealeo",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 366,
+        "name": "Clamperl",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 371,
+        "name": "Bagon",
+        "kmBuddyDistance": 5,
+        "candyCost": 125
+    },
+    {
+        "dex": 372,
+        "name": "Shelgon",
+        "kmBuddyDistance": 5,
+        "candyCost": 100
+    },
+    {
+        "dex": 374,
+        "name": "Beldum",
+        "kmBuddyDistance": 5,
+        "candyCost": 125
+    },
+    {
+        "dex": 375,
+        "name": "Metang",
+        "kmBuddyDistance": 5,
+        "candyCost": 100
+    },
+    {
+        "dex": 387,
+        "name": "Turtwig",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 388,
+        "name": "Grotle",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 390,
+        "name": "Chimchar",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 391,
+        "name": "Monferno",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 393,
+        "name": "Piplup",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 394,
+        "name": "Prinplup",
+        "kmBuddyDistance": 3,
+        "candyCost": 100
+    },
+    {
+        "dex": 396,
+        "name": "Starly",
+        "kmBuddyDistance": 1,
+        "candyCost": 125
+    },
+    {
+        "dex": 397,
+        "name": "Staravia",
+        "kmBuddyDistance": 1,
+        "candyCost": 100
+    },
+    {
+        "dex": 399,
+        "name": "Bidoof",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 401,
+        "name": "Kricketot",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 403,
+        "name": "Shinx",
+        "kmBuddyDistance": 5,
+        "candyCost": 125
+    },
+    {
+        "dex": 404,
+        "name": "Luxio",
+        "kmBuddyDistance": 5,
+        "candyCost": 100
+    },
+    {
+        "dex": 406,
+        "name": "Budew",
+        "kmBuddyDistance": 3,
+        "candyCost": 125
+    },
+    {
+        "dex": 408,
+        "name": "Cranidos",
+        "kmBuddyDistance": 5,
+        "candyCost": 50
+    },
+    {
+        "dex": 410,
+        "name": "Shieldon",
+        "kmBuddyDistance": 5,
+        "candyCost": 50
+    },
+    {
+        "dex": 412,
+        "name": "Burmy",
+        "kmBuddyDistance": 5,
+        "candyCost": 50
+    },
+    {
+        "dex": 415,
+        "name": "Combee",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 418,
+        "name": "Buizel",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 420,
+        "name": "Cherubi",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 422,
+        "name": "Shellos",
+        "kmBuddyDistance": 5,
+        "candyCost": 50
+    },
+    {
+        "dex": 425,
+        "name": "Drifloon",
+        "kmBuddyDistance": 5,
+        "candyCost": 50
+    },
+    {
+        "dex": 427,
+        "name": "Buneary",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 431,
+        "name": "Glameow",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 433,
+        "name": "Chingling",
+        "kmBuddyDistance": 5,
+        "candyCost": 50
+    },
+    {
+        "dex": 434,
+        "name": "Stunky",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 436,
+        "name": "Bronzor",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 438,
+        "name": "Bonsly",
+        "kmBuddyDistance": 5,
+        "candyCost": 50
+    },
+    {
+        "dex": 439,
+        "name": "Mime Jr",
+        "kmBuddyDistance": 5,
+        "candyCost": 50
+    },
+    {
+        "dex": 440,
+        "name": "Happiny",
+        "kmBuddyDistance": 5,
+        "candyCost": 75
+    },
+    {
+        "dex": 443,
+        "name": "Gible",
+        "kmBuddyDistance": 5,
+        "candyCost": 125
+    },
+    {
+        "dex": 444,
+        "name": "Gabite",
+        "kmBuddyDistance": 5,
+        "candyCost": 100
+    },
+    {
+        "dex": 446,
+        "name": "Munchlax",
+        "kmBuddyDistance": 5,
+        "candyCost": 50
+    },
+    {
+        "dex": 447,
+        "name": "Riolu",
+        "kmBuddyDistance": 5,
+        "candyCost": 50
+    },
+    {
+        "dex": 449,
+        "name": "Hippopotas",
+        "kmBuddyDistance": 1,
+        "candyCost": 50
+    },
+    {
+        "dex": 451,
+        "name": "Skorupi",
+        "kmBuddyDistance": 5,
+        "candyCost": 50
+    },
+    {
+        "dex": 453,
+        "name": "Croagunk",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 456,
+        "name": "Finneon",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 458,
+        "name": "Mantyke",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 459,
+        "name": "Snover",
+        "kmBuddyDistance": 3,
+        "candyCost": 50
+    },
+    {
+        "dex": 808,
+        "name": "Meltan",
+        "kmBuddyDistance": 20,
+        "candyCost": 400
+    }
+]
