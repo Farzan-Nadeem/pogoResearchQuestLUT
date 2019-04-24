@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
-import SearchableDropdown from 'react-native-searchable-dropdown'; 
+import SearchableDropdown from 'react-native-searchable-dropdown';
+import NumericInput from 'react-native-numeric-input'
 
 const pokemonList = require('./pokemon_list.json');
 
@@ -13,17 +14,21 @@ export default class AddPokemonTrackerActivity extends Component {
     constructor(props) {
         super(props);
 
-        this.state = {};
+        this.state = {
+            pokemonChosen : "Pikachu",
+            currentCandy: 0
+        };
     }
 
     render() {
         return (
             <View style={styles.container}>
-                <Text>Pokemon Name</Text>
+                <Text style={{ fontSize: 22, fontWeight: 'bold' }}>Pokemon Details{"\n"}</Text>
+
+                <Text style={styles.textStyle}>Pokemon Name</Text>
 
                 <SearchableDropdown
-                    onTextChange={text => alert(text)}
-                    onItemSelect={item => alert(JSON.stringify(item))}
+                    onItemSelect={item => this.setState({ pokemonChosen: item.name })}
                     containerStyle={{ padding: 5 }}
                     textInputStyle={{
                         padding: 12,
@@ -42,15 +47,33 @@ export default class AddPokemonTrackerActivity extends Component {
                     itemTextStyle={{ color: '#222' }}
                     itemsContainerStyle={{ maxHeight: 140 }}
                     items={pokemonList}
-                    defaultIndex={2}
-                    placeholder="placeholder"
+                    defaultIndex={0}
+                    placeholder={this.state.pokemonChosen}
                     resetValue={false}
                     underlineColorAndroid="transparent"
                 />
 
-                <Text>{"\n\n\n"}Current Amount of Candy</Text>
-                
+                <Text style={styles.textStyle}>{"\n\n"}Current Amount of Candy{"\n"}</Text>
 
+                <View style={{ alignSelf: 'center', justifyContent:'center' }}>
+                    <NumericInput
+                        initValue={this.state.currentCandy}
+                        value={this.state.currentCandy}
+                        onChange={(currentCandy) => this.setState({ "currentCandy": currentCandy })}
+                        totalWidth={200}
+                        rounded
+                        textColor='#103900'
+                        iconStyle={{ color: 'white' }}
+                        rightButtonBackgroundColor='#06BA63'
+                        leftButtonBackgroundColor='#06BA63'
+                        alignSelf='center' />
+                </View>
+
+                <Text>{"\n\n\n"}</Text>
+
+                <Button style={styles.buttonStyle} type='outline' color='darkslategrey'
+                    onPress={() => alert(JSON.stringify(this.state))} title="Add Tracker!"
+                />
             </View>
         )
     }
@@ -60,6 +83,15 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         padding: 25,
-        backgroundColor: 'lightcyan'
+        backgroundColor: 'lightcyan',
+        fontWeight: 'bold',
+    },
+    buttonStyle: {
+        flex: 0.8,
+        alignSelf: 'center',
+        margin: 20,
+    },
+    textStyle: {
+        fontWeight: 'bold'
     }
 })
