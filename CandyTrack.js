@@ -17,8 +17,8 @@ export default class CandyTrack extends Component {
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
-        margin: 15,
+        flex: 1, 
+        marginRight: 15,
         flexDirection: 'row',
         justifyContent: 'space-between'
     },
@@ -27,8 +27,10 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         borderLeftWidth: 1,
         borderRightWidth: 1,
+        borderBottomWidth: 1,
         borderColor: 'black',
-        padding: 10,
+        paddingLeft: 10,
+        paddingRight: 10,
         height: 55, 
     }
 });
