@@ -90,6 +90,11 @@ export default class AddPokemonTrackerActivity extends Component {
                             return;
                         }
 
+                        if(this.state.candyCost < this.state.currentCandy) { 
+                            alert("Current candy can not be greater than total candy cost: " + this.state.candyCost);
+                            return;
+                        }
+
                         db.readTransaction(tx => {
                             tx.executeSql('SELECT * FROM UserCandy where pokemon_name like ?',
                                 [this.state.pokemonChosen],
