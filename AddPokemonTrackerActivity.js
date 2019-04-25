@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
-import { View, Text, Button, StyleSheet } from 'react-native';
+import { View, Text, Button, StyleSheet, Alert } from 'react-native';
 import SearchableDropdown from 'react-native-searchable-dropdown';
-import NumericInput from 'react-native-numeric-input'
+import NumericInput from 'react-native-numeric-input';
+import { openDatabase } from 'react-native-sqlite-storage';
+
+
+const db = openDatabase({ name: "CandyDatabase.db" });
 
 const pokemonList = require('./candy_tracker_static.json');
 
@@ -15,9 +19,12 @@ export default class AddPokemonTrackerActivity extends Component {
         super(props);
 
         this.state = {
-            pokemonChosen : "Pikachu",
+            pokemonChosen: "Pikachu",
+            kmBuddyDistance: 3,
+            candyCost: 50,
             currentCandy: 0
         };
+
     }
 
     render() {
@@ -55,7 +62,7 @@ export default class AddPokemonTrackerActivity extends Component {
 
                 <Text style={styles.textStyle}>{"\n\n"}Current Amount of Candy{"\n"}</Text>
 
-                <View style={{ alignSelf: 'center', justifyContent:'center' }}>
+                <View style={{ alignSelf: 'center', justifyContent: 'center' }}>
                     <NumericInput
                         initValue={this.state.currentCandy}
                         value={this.state.currentCandy}
@@ -72,7 +79,51 @@ export default class AddPokemonTrackerActivity extends Component {
                 <Text>{"\n\n\n"}</Text>
 
                 <Button style={styles.buttonStyle} type='outline' color='darkslategrey'
-                    onPress={() => alert(JSON.stringify(this.state))} title="Add Tracker!"
+                    onPress={() => {
+
+                        if (this.state.currentCandy == undefined ||
+                            this.state.pokemonChosen == undefined||
+                            this.state.currentCandy == null ||
+                            this.state.pokemonChosen == null) 
+                            {
+                            alert("Ensure that all data has been selected!");
+                            return;
+                        }
+
+                        db.readTransaction(tx => {
+                            tx.executeSql('SELECT * FROM UserCandy where pokemon_name like ?',
+                                [this.state.pokemonChosen],
+                                (tx, results) => {
+                                    if (results.rows.length != 0) {
+                                        alert("Tracker already exists for this pokemon!");
+                                    }
+                                })
+                        })
+
+                        db.transaction(tx => {
+                            tx.executeSql('INSERT INTO UserCandy (pokemon_name, buddy_distance, candy_cost, current_candy) VALUES (?, ?, ?, ?)',
+                                [this.state.pokemonChosen, this.state.kmBuddyDistance, this.state.candyCost, this.state.currentCandy],
+                                (tx, results) => {
+                                    if (results.rowsAffected != 0) {
+                                        Alert.alert(
+                                            'Success!',
+                                            'Added pokemon Tracker!',
+                                            [
+                                                {
+                                                    text: 'Ok',
+                                                    onPress: () =>
+                                                        this.props.navigation.goBack(),
+                                                },
+                                            ],
+                                            { cancelable: false }
+                                        );
+                                    } else {
+                                        alert("Something went wrong! Please try again");
+                                    }
+                                }
+                            );
+                        })
+                    }} title="Add Tracker!"
                 />
             </View>
         )

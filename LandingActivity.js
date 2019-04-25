@@ -1,10 +1,20 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, Button, Image, View } from 'react-native';
 
+import { openDatabase } from 'react-native-sqlite-storage';
+ 
+const db = openDatabase({name: "CandyDatabase.db"});
+
 export default class LandingActivity extends Component {
     constructor(props) {
         super(props);
         this.state = {};
+
+        db.transaction(tx => {
+            tx.executeSql('CREATE TABLE IF NOT EXISTS UserCandy(pokemon_name VARCHAR(30) PRIMARY KEY NOT NULL, buddy_distance INT(3), candy_cost INT(3), current_candy INT(3))',
+                [],
+            );
+        });
     }
 
     static navigationOptions = {
