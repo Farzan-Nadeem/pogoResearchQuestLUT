@@ -20,6 +20,10 @@ export default class CandyTrackerActivity extends Component {
             FlatListItems: [],
         };
 
+        this.getData();
+    }
+
+    getData() { 
         db.transaction(tx => {
             tx.executeSql('SELECT * FROM UserCandy', [], (tx, results) => {
                 var temp = this.state.FlatListItems;
