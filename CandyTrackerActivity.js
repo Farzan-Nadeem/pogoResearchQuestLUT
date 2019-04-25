@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, Button, View } from 'react-native';
+import { StyleSheet, FlatList, Text, Button, View } from 'react-native';
 import CandyTrack from './CandyTrack.js';
 
-var staticCandyData = require('./candy_tracker_static.json');
-var staticPokeList = require('./pokemon_list.json');
+import { openDatabase } from 'react-native-sqlite-storage';
+
+const db = openDatabase({ name: "CandyDatabase.db" });
 
 export default class CandyTrackerActivity extends Component {
 
@@ -12,7 +13,32 @@ export default class CandyTrackerActivity extends Component {
         header: null,
     };
 
-    OpenAddPokemonTrackerActivity = () => { 
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            FlatListItems: [{pokeName:"Pokemon", candyRemaining:"Candy Remaining", distanceRemaining:"Distance Remaining"}],
+        };
+
+        db.transaction(tx => {
+            tx.executeSql('SELECT * FROM UserCandy', [], (tx, results) => {
+                var temp = this.state.FlatListItems;
+                for (let i = 0; i < results.rows.length; ++i) {
+                    temp.push( {
+                        pokeName : results.rows.item(i).pokemon_name,
+                        candyRemaining:  results.rows.item(i).candy_cost -  results.rows.item(i).current_candy,
+                        distanceRemaining: (results.rows.item(i).candy_cost -  results.rows.item(i).current_candy)*results.rows.item(i).buddy_distance
+                    }
+                       );
+                }
+                this.setState({
+                    FlatListItems: temp,
+                });
+            });
+        });
+    }
+
+    OpenAddPokemonTrackerActivity = () => {
         this.props.navigation.navigate('AddPokemonTrackerActivity');
     }
 
@@ -20,11 +46,16 @@ export default class CandyTrackerActivity extends Component {
         return (
             <View style={styles.container}>
                 <View style={styles.buttonContainer}>
-                    <Button type='outline' color='darkslategrey' style={styles.buttonStyle} 
-                    onPress={this.OpenAddPokemonTrackerActivity} title='Add Tracker!' />
+                    <Button type='outline' color='darkslategrey' style={styles.buttonStyle}
+                        onPress={this.OpenAddPokemonTrackerActivity} title='Add Tracker!' /> 
                 </View>
-                
-                <CandyTrack pokeName="Chikorita" candyRemaining="4" distanceRemaining="54" />
+
+                <FlatList
+                    data={this.state.FlatListItems}
+                    renderItem={({ item }) => (
+                        <CandyTrack pokeName={item.pokeName} candyRemaining={item.candyRemaining} distanceRemaining={item.distanceRemaining} />
+                    )}
+                />
             </View>
         );
     }
