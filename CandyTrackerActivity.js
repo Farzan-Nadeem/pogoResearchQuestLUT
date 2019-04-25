@@ -17,16 +17,24 @@ export default class CandyTrackerActivity extends Component {
         super(props);
 
         this.state = {
+            refreshing: false,
             FlatListItems: [],
         };
 
         this.getData();
     }
-
+    
+    handleRefresh() { 
+        this.setState({ 
+            refreshing: true,
+        });
+        this.getData();
+    }
+    
     getData() { 
         db.transaction(tx => {
             tx.executeSql('SELECT * FROM UserCandy', [], (tx, results) => {
-                var temp = this.state.FlatListItems;
+                var temp = [];
                 for (let i = 0; i < results.rows.length; ++i) {
                     temp.push( {
                         pokeName : results.rows.item(i).pokemon_name,
@@ -44,6 +52,7 @@ export default class CandyTrackerActivity extends Component {
 
                 this.setState({
                     FlatListItems: temp,
+                    refreshing: false,
                 });
             });
         });
@@ -63,6 +72,8 @@ export default class CandyTrackerActivity extends Component {
 
                 <FlatList
                     data={this.state.FlatListItems}
+                    refreshing={this.state.refreshing}
+                    onRefresh={this.handleRefresh.bind(this)}
                     renderItem={({ item }) => (
                         <CandyTrack pokeName={item.pokeName} candyRemaining={item.candyRemaining} distanceRemaining={item.distanceRemaining} />
                     )}
