@@ -1,1340 +1,1340 @@
-{
-     "Bulbasaur" : {
-        "dex": 1,
+[
+    {
+        "id": 1,
         "name": "Bulbasaur",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Ivysaur" : {
-        "dex": 2,
+    {
+        "id": 2,
         "name": "Ivysaur",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Charmander" : {
-        "dex": 4,
+    {
+        "id": 4,
         "name": "Charmander",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Charmeleon" : {
-        "dex": 5,
+    {
+        "id": 5,
         "name": "Charmeleon",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Squirtle" : {
-        "dex": 7,
+    {
+        "id": 7,
         "name": "Squirtle",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Wartortle" : {
-        "dex": 8,
+    {
+        "id": 8,
         "name": "Wartortle",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Caterpie" : {
-        "dex": 10,
+    {
+        "id": 10,
         "name": "Caterpie",
         "kmBuddyDistance": 1,
         "candyCost": 62
     },
-     "Metapod" : {
-        "dex": 11,
+    {
+        "id": 11,
         "name": "Metapod",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Weedle" : {
-        "dex": 13,
+    {
+        "id": 13,
         "name": "Weedle",
         "kmBuddyDistance": 1,
         "candyCost": 62
     },
-     "Kakuna" : {
-        "dex": 14,
+    {
+        "id": 14,
         "name": "Kakuna",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Pidgey" : {
-        "dex": 16,
+    {
+        "id": 16,
         "name": "Pidgey",
         "kmBuddyDistance": 1,
         "candyCost": 62
     },
-     "Pidgeotto" : {
-        "dex": 17,
+    {
+        "id": 17,
         "name": "Pidgeotto",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Rattata" : {
-        "dex": 19,
+    {
+        "id": 19,
         "name": "Rattata",
         "kmBuddyDistance": 1,
         "candyCost": 25
     },
-     "Spearow" : {
-        "dex": 21,
+    {
+        "id": 21,
         "name": "Spearow",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Ekans" : {
-        "dex": 23,
+    {
+        "id": 23,
         "name": "Ekans",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Pikachu" : {
-        "dex": 25,
+    {
+        "id": 25,
         "name": "Pikachu",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Sandshrew" : {
-        "dex": 27,
+    {
+        "id": 27,
         "name": "Sandshrew",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Nidoran" : {
-        "dex": 29,
+    {
+        "id": 29,
         "name": "Nidoran",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Nidorina" : {
-        "dex": 30,
+    {
+        "id": 30,
         "name": "Nidorina",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Nidoran" : {
-        "dex": 32,
+    {
+        "id": 32,
         "name": "Nidoran",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Nidorino" : {
-        "dex": 33,
+    {
+        "id": 33,
         "name": "Nidorino",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Clefairy" : {
-        "dex": 35,
+    {
+        "id": 35,
         "name": "Clefairy",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Vulpix" : {
-        "dex": 37,
+    {
+        "id": 37,
         "name": "Vulpix",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Jigglypuff" : {
-        "dex": 39,
+    {
+        "id": 39,
         "name": "Jigglypuff",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Zubat" : {
-        "dex": 41,
+    {
+        "id": 41,
         "name": "Zubat",
         "kmBuddyDistance": 1,
         "candyCost": 125
     },
-     "Golbat" : {
-        "dex": 42,
+    {
+        "id": 42,
         "name": "Golbat",
         "kmBuddyDistance": 1,
         "candyCost": 100
     },
-     "Oddish" : {
-        "dex": 43,
+    {
+        "id": 43,
         "name": "Oddish",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Gloom" : {
-        "dex": 44,
+    {
+        "id": 44,
         "name": "Gloom",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Paras" : {
-        "dex": 46,
+    {
+        "id": 46,
         "name": "Paras",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Venonat" : {
-        "dex": 48,
+    {
+        "id": 48,
         "name": "Venonat",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Diglett" : {
-        "dex": 50,
+    {
+        "id": 50,
         "name": "Diglett",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Meowth" : {
-        "dex": 52,
+    {
+        "id": 52,
         "name": "Meowth",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Psyduck" : {
-        "dex": 54,
+    {
+        "id": 54,
         "name": "Psyduck",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Mankey" : {
-        "dex": 56,
+    {
+        "id": 56,
         "name": "Mankey",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Growlithe" : {
-        "dex": 58,
+    {
+        "id": 58,
         "name": "Growlithe",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Poliwag" : {
-        "dex": 60,
+    {
+        "id": 60,
         "name": "Poliwag",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Poliwhirl" : {
-        "dex": 61,
+    {
+        "id": 61,
         "name": "Poliwhirl",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Abra" : {
-        "dex": 63,
+    {
+        "id": 63,
         "name": "Abra",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Kadabra" : {
-        "dex": 64,
+    {
+        "id": 64,
         "name": "Kadabra",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Machop" : {
-        "dex": 66,
+    {
+        "id": 66,
         "name": "Machop",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Machoke" : {
-        "dex": 67,
+    {
+        "id": 67,
         "name": "Machoke",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Bellsprout" : {
-        "dex": 69,
+    {
+        "id": 69,
         "name": "Bellsprout",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Weepinbell" : {
-        "dex": 70,
+    {
+        "id": 70,
         "name": "Weepinbell",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Tentacool" : {
-        "dex": 72,
+    {
+        "id": 72,
         "name": "Tentacool",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Geodude" : {
-        "dex": 74,
+    {
+        "id": 74,
         "name": "Geodude",
         "kmBuddyDistance": 1,
         "candyCost": 125
     },
-     "Graveler" : {
-        "dex": 75,
+    {
+        "id": 75,
         "name": "Graveler",
         "kmBuddyDistance": 1,
         "candyCost": 100
     },
-     "Ponyta" : {
-        "dex": 77,
+    {
+        "id": 77,
         "name": "Ponyta",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Slowpoke" : {
-        "dex": 79,
+    {
+        "id": 79,
         "name": "Slowpoke",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Magnemite" : {
-        "dex": 81,
+    {
+        "id": 81,
         "name": "Magnemite",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Doduo" : {
-        "dex": 84,
+    {
+        "id": 84,
         "name": "Doduo",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Seel" : {
-        "dex": 86,
+    {
+        "id": 86,
         "name": "Seel",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Grimer" : {
-        "dex": 88,
+    {
+        "id": 88,
         "name": "Grimer",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Shellder" : {
-        "dex": 90,
+    {
+        "id": 90,
         "name": "Shellder",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Gastly" : {
-        "dex": 92,
+    {
+        "id": 92,
         "name": "Gastly",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Haunter" : {
-        "dex": 93,
+    {
+        "id": 93,
         "name": "Haunter",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Onix" : {
-        "dex": 95,
+    {
+        "id": 95,
         "name": "Onix",
         "kmBuddyDistance": 5,
         "candyCost": 50
     },
-     "Drowzee" : {
-        "dex": 96,
+    {
+        "id": 96,
         "name": "Drowzee",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Krabby" : {
-        "dex": 98,
+    {
+        "id": 98,
         "name": "Krabby",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Voltorb" : {
-        "dex": 100,
+    {
+        "id": 100,
         "name": "Voltorb",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Exeggcute" : {
-        "dex": 102,
+    {
+        "id": 102,
         "name": "Exeggcute",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Cubone" : {
-        "dex": 104,
+    {
+        "id": 104,
         "name": "Cubone",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Koffing" : {
-        "dex": 109,
+    {
+        "id": 109,
         "name": "Koffing",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Rhyhorn" : {
-        "dex": 111,
+    {
+        "id": 111,
         "name": "Rhyhorn",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Rhydon" : {
-        "dex": 112,
+    {
+        "id": 112,
         "name": "Rhydon",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Chansey" : {
-        "dex": 113,
+    {
+        "id": 113,
         "name": "Chansey",
         "kmBuddyDistance": 5,
         "candyCost": 50
     },
-     "Horsea" : {
-        "dex": 116,
+    {
+        "id": 116,
         "name": "Horsea",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Seadra" : {
-        "dex": 117,
+    {
+        "id": 117,
         "name": "Seadra",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Goldeen" : {
-        "dex": 118,
+    {
+        "id": 118,
         "name": "Goldeen",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Staryu" : {
-        "dex": 120,
+    {
+        "id": 120,
         "name": "Staryu",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Scyther" : {
-        "dex": 123,
+    {
+        "id": 123,
         "name": "Scyther",
         "kmBuddyDistance": 5,
         "candyCost": 50
     },
-     "Electabuzz" : {
-        "dex": 125,
+    {
+        "id": 125,
         "name": "Electabuzz",
         "kmBuddyDistance": 5,
         "candyCost": 100
     },
-     "Magmar" : {
-        "dex": 126,
+    {
+        "id": 126,
         "name": "Magmar",
         "kmBuddyDistance": 5,
         "candyCost": 100
     },
-     "Magikarp" : {
-        "dex": 129,
+    {
+        "id": 129,
         "name": "Magikarp",
         "kmBuddyDistance": 1,
         "candyCost": 400
     },
-     "Eevee" : {
-        "dex": 133,
+    {
+        "id": 133,
         "name": "Eevee",
         "kmBuddyDistance": 5,
         "candyCost": 25
     },
-     "Porygon" : {
-        "dex": 137,
+    {
+        "id": 137,
         "name": "Porygon",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Omanyte" : {
-        "dex": 138,
+    {
+        "id": 138,
         "name": "Omanyte",
         "kmBuddyDistance": 5,
         "candyCost": 50
     },
-     "Kabuto" : {
-        "dex": 140,
+    {
+        "id": 140,
         "name": "Kabuto",
         "kmBuddyDistance": 5,
         "candyCost": 50
     },
-     "Dratini" : {
-        "dex": 147,
+    {
+        "id": 147,
         "name": "Dratini",
         "kmBuddyDistance": 5,
         "candyCost": 125
     },
-     "Dragonair" : {
-        "dex": 148,
+    {
+        "id": 148,
         "name": "Dragonair",
         "kmBuddyDistance": 5,
         "candyCost": 100
     },
-     "Chikorita" : {
-        "dex": 152,
+    {
+        "id": 152,
         "name": "Chikorita",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Bayleef" : {
-        "dex": 153,
+    {
+        "id": 153,
         "name": "Bayleef",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Cyndaquil" : {
-        "dex": 155,
+    {
+        "id": 155,
         "name": "Cyndaquil",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Quilava" : {
-        "dex": 156,
+    {
+        "id": 156,
         "name": "Quilava",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Totodile" : {
-        "dex": 158,
+    {
+        "id": 158,
         "name": "Totodile",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Croconaw" : {
-        "dex": 159,
+    {
+        "id": 159,
         "name": "Croconaw",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Sentret" : {
-        "dex": 161,
+    {
+        "id": 161,
         "name": "Sentret",
         "kmBuddyDistance": 1,
         "candyCost": 25
     },
-     "Hoothoot" : {
-        "dex": 163,
+    {
+        "id": 163,
         "name": "Hoothoot",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Ledyba" : {
-        "dex": 165,
+    {
+        "id": 165,
         "name": "Ledyba",
         "kmBuddyDistance": 1,
         "candyCost": 25
     },
-     "Spinarak" : {
-        "dex": 167,
+    {
+        "id": 167,
         "name": "Spinarak",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Chinchou" : {
-        "dex": 170,
+    {
+        "id": 170,
         "name": "Chinchou",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Pichu" : {
-        "dex": 172,
+    {
+        "id": 172,
         "name": "Pichu",
         "kmBuddyDistance": 1,
         "candyCost": 75
     },
-     "Cleffa" : {
-        "dex": 173,
+    {
+        "id": 173,
         "name": "Cleffa",
         "kmBuddyDistance": 1,
         "candyCost": 75
     },
-     "Igglybuff" : {
-        "dex": 174,
+    {
+        "id": 174,
         "name": "Igglybuff",
         "kmBuddyDistance": 1,
         "candyCost": 75
     },
-     "Togepi" : {
-        "dex": 175,
+    {
+        "id": 175,
         "name": "Togepi",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Togetic" : {
-        "dex": 176,
+    {
+        "id": 176,
         "name": "Togetic",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Natu" : {
-        "dex": 177,
+    {
+        "id": 177,
         "name": "Natu",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Mareep" : {
-        "dex": 179,
+    {
+        "id": 179,
         "name": "Mareep",
         "kmBuddyDistance": 5,
         "candyCost": 125
     },
-     "Flaaffy" : {
-        "dex": 180,
+    {
+        "id": 180,
         "name": "Flaaffy",
         "kmBuddyDistance": 5,
         "candyCost": 100
     },
-     "Marill" : {
-        "dex": 183,
+    {
+        "id": 183,
         "name": "Marill",
         "kmBuddyDistance": 3,
         "candyCost": 25
     },
-     "Hoppip" : {
-        "dex": 187,
+    {
+        "id": 187,
         "name": "Hoppip",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Skiploom" : {
-        "dex": 188,
+    {
+        "id": 188,
         "name": "Skiploom",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Sunkern" : {
-        "dex": 191,
+    {
+        "id": 191,
         "name": "Sunkern",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Wooper" : {
-        "dex": 194,
+    {
+        "id": 194,
         "name": "Wooper",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Murkrow" : {
-        "dex": 198,
+    {
+        "id": 198,
         "name": "Murkrow",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Misdreavus" : {
-        "dex": 200,
+    {
+        "id": 200,
         "name": "Misdreavus",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Pineco" : {
-        "dex": 204,
+    {
+        "id": 204,
         "name": "Pineco",
         "kmBuddyDistance": 5,
         "candyCost": 50
     },
-     "Gligar" : {
-        "dex": 207,
+    {
+        "id": 207,
         "name": "Gligar",
         "kmBuddyDistance": 5,
         "candyCost": 100
     },
-     "Snubbull" : {
-        "dex": 209,
+    {
+        "id": 209,
         "name": "Snubbull",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Sneasel" : {
-        "dex": 215,
+    {
+        "id": 215,
         "name": "Sneasel",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Teddiursa" : {
-        "dex": 216,
+    {
+        "id": 216,
         "name": "Teddiursa",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Slugma" : {
-        "dex": 218,
+    {
+        "id": 218,
         "name": "Slugma",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Swinub" : {
-        "dex": 220,
+    {
+        "id": 220,
         "name": "Swinub",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Remoraid" : {
-        "dex": 223,
+    {
+        "id": 223,
         "name": "Remoraid",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Houndour" : {
-        "dex": 228,
+    {
+        "id": 228,
         "name": "Houndour",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Phanpy" : {
-        "dex": 231,
+    {
+        "id": 231,
         "name": "Phanpy",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Porygon2" : {
-        "dex": 233,
+    {
+        "id": 233,
         "name": "Porygon2",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Tyrogue" : {
-        "dex": 236,
+    {
+        "id": 236,
         "name": "Tyrogue",
         "kmBuddyDistance": 5,
         "candyCost": 25
     },
-     "Smoochum" : {
-        "dex": 238,
+    {
+        "id": 238,
         "name": "Smoochum",
         "kmBuddyDistance": 5,
         "candyCost": 25
     },
-     "Elekid" : {
-        "dex": 239,
+    {
+        "id": 239,
         "name": "Elekid",
         "kmBuddyDistance": 5,
         "candyCost": 125
     },
-     "Magby" : {
-        "dex": 240,
+    {
+        "id": 240,
         "name": "Magby",
         "kmBuddyDistance": 5,
         "candyCost": 125
     },
-     "Larvitar" : {
-        "dex": 246,
+    {
+        "id": 246,
         "name": "Larvitar",
         "kmBuddyDistance": 5,
         "candyCost": 125
     },
-     "Pupitar" : {
-        "dex": 247,
+    {
+        "id": 247,
         "name": "Pupitar",
         "kmBuddyDistance": 5,
         "candyCost": 100
     },
-     "Treecko" : {
-        "dex": 252,
+    {
+        "id": 252,
         "name": "Treecko",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Grovyle" : {
-        "dex": 253,
+    {
+        "id": 253,
         "name": "Grovyle",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Torchic" : {
-        "dex": 255,
+    {
+        "id": 255,
         "name": "Torchic",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Combusken" : {
-        "dex": 256,
+    {
+        "id": 256,
         "name": "Combusken",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Mudkip" : {
-        "dex": 258,
+    {
+        "id": 258,
         "name": "Mudkip",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Marshtomp" : {
-        "dex": 259,
+    {
+        "id": 259,
         "name": "Marshtomp",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Poochyena" : {
-        "dex": 261,
+    {
+        "id": 261,
         "name": "Poochyena",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Zigzagoon" : {
-        "dex": 263,
+    {
+        "id": 263,
         "name": "Zigzagoon",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Wurmple" : {
-        "dex": 265,
+    {
+        "id": 265,
         "name": "Wurmple",
         "kmBuddyDistance": 1,
         "candyCost": 62
     },
-     "Silcoon" : {
-        "dex": 266,
+    {
+        "id": 266,
         "name": "Silcoon",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Cascoon" : {
-        "dex": 268,
+    {
+        "id": 268,
         "name": "Cascoon",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Lotad" : {
-        "dex": 270,
+    {
+        "id": 270,
         "name": "Lotad",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Lombre" : {
-        "dex": 271,
+    {
+        "id": 271,
         "name": "Lombre",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Seedot" : {
-        "dex": 273,
+    {
+        "id": 273,
         "name": "Seedot",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Nuzleaf" : {
-        "dex": 274,
+    {
+        "id": 274,
         "name": "Nuzleaf",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Taillow" : {
-        "dex": 276,
+    {
+        "id": 276,
         "name": "Taillow",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Wingull" : {
-        "dex": 278,
+    {
+        "id": 278,
         "name": "Wingull",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Ralts" : {
-        "dex": 280,
+    {
+        "id": 280,
         "name": "Ralts",
         "kmBuddyDistance": 5,
         "candyCost": 125
     },
-     "Kirlia" : {
-        "dex": 281,
+    {
+        "id": 281,
         "name": "Kirlia",
         "kmBuddyDistance": 5,
         "candyCost": 100
     },
-     "Surskit" : {
-        "dex": 283,
+    {
+        "id": 283,
         "name": "Surskit",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Shroomish" : {
-        "dex": 285,
+    {
+        "id": 285,
         "name": "Shroomish",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Slakoth" : {
-        "dex": 287,
+    {
+        "id": 287,
         "name": "Slakoth",
         "kmBuddyDistance": 5,
         "candyCost": 125
     },
-     "Vigoroth" : {
-        "dex": 288,
+    {
+        "id": 288,
         "name": "Vigoroth",
         "kmBuddyDistance": 5,
         "candyCost": 100
     },
-     "Nincada" : {
-        "dex": 290,
+    {
+        "id": 290,
         "name": "Nincada",
         "kmBuddyDistance": 5,
         "candyCost": 50
     },
-     "Whismur" : {
-        "dex": 293,
+    {
+        "id": 293,
         "name": "Whismur",
         "kmBuddyDistance": 1,
         "candyCost": 62
     },
-     "Loudred" : {
-        "dex": 294,
+    {
+        "id": 294,
         "name": "Loudred",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Makuhita" : {
-        "dex": 296,
+    {
+        "id": 296,
         "name": "Makuhita",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Azurill" : {
-        "dex": 298,
+    {
+        "id": 298,
         "name": "Azurill",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Skitty" : {
-        "dex": 300,
+    {
+        "id": 300,
         "name": "Skitty",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Aron" : {
-        "dex": 304,
+    {
+        "id": 304,
         "name": "Aron",
         "kmBuddyDistance": 1,
         "candyCost": 125
     },
-     "Lairon" : {
-        "dex": 305,
+    {
+        "id": 305,
         "name": "Lairon",
         "kmBuddyDistance": 1,
         "candyCost": 100
     },
-     "Meditite" : {
-        "dex": 307,
+    {
+        "id": 307,
         "name": "Meditite",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Electrike" : {
-        "dex": 309,
+    {
+        "id": 309,
         "name": "Electrike",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Roselia" : {
-        "dex": 315,
+    {
+        "id": 315,
         "name": "Roselia",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Gulpin" : {
-        "dex": 316,
+    {
+        "id": 316,
         "name": "Gulpin",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Carvanha" : {
-        "dex": 318,
+    {
+        "id": 318,
         "name": "Carvanha",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Wailmer" : {
-        "dex": 320,
+    {
+        "id": 320,
         "name": "Wailmer",
         "kmBuddyDistance": 1,
         "candyCost": 400
     },
-     "Numel" : {
-        "dex": 322,
+    {
+        "id": 322,
         "name": "Numel",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Spoink" : {
-        "dex": 325,
+    {
+        "id": 325,
         "name": "Spoink",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Trapinch" : {
-        "dex": 328,
+    {
+        "id": 328,
         "name": "Trapinch",
         "kmBuddyDistance": 5,
         "candyCost": 125
     },
-     "Vibrava" : {
-        "dex": 329,
+    {
+        "id": 329,
         "name": "Vibrava",
         "kmBuddyDistance": 5,
         "candyCost": 100
     },
-     "Cacnea" : {
-        "dex": 331,
+    {
+        "id": 331,
         "name": "Cacnea",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Swablu" : {
-        "dex": 333,
+    {
+        "id": 333,
         "name": "Swablu",
         "kmBuddyDistance": 1,
         "candyCost": 400
     },
-     "Barboach" : {
-        "dex": 339,
+    {
+        "id": 339,
         "name": "Barboach",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Corphish" : {
-        "dex": 341,
+    {
+        "id": 341,
         "name": "Corphish",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Baltoy" : {
-        "dex": 343,
+    {
+        "id": 343,
         "name": "Baltoy",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Lileep" : {
-        "dex": 345,
+    {
+        "id": 345,
         "name": "Lileep",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Anorith" : {
-        "dex": 347,
+    {
+        "id": 347,
         "name": "Anorith",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Feebas" : {
-        "dex": 349,
+    {
+        "id": 349,
         "name": "Feebas",
         "kmBuddyDistance": 5,
         "candyCost": 100
     },
-     "Shuppet" : {
-        "dex": 353,
+    {
+        "id": 353,
         "name": "Shuppet",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Duskull" : {
-        "dex": 355,
+    {
+        "id": 355,
         "name": "Duskull",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Dusclops" : {
-        "dex": 356,
+    {
+        "id": 356,
         "name": "Dusclops",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Wynaut" : {
-        "dex": 360,
+    {
+        "id": 360,
         "name": "Wynaut",
         "kmBuddyDistance": 3,
         "candyCost": 25
     },
-     "Snorunt" : {
-        "dex": 361,
+    {
+        "id": 361,
         "name": "Snorunt",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Spheal" : {
-        "dex": 363,
+    {
+        "id": 363,
         "name": "Spheal",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Sealeo" : {
-        "dex": 364,
+    {
+        "id": 364,
         "name": "Sealeo",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Clamperl" : {
-        "dex": 366,
+    {
+        "id": 366,
         "name": "Clamperl",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Bagon" : {
-        "dex": 371,
+    {
+        "id": 371,
         "name": "Bagon",
         "kmBuddyDistance": 5,
         "candyCost": 125
     },
-     "Shelgon" : {
-        "dex": 372,
+    {
+        "id": 372,
         "name": "Shelgon",
         "kmBuddyDistance": 5,
         "candyCost": 100
     },
-     "Beldum" : {
-        "dex": 374,
+    {
+        "id": 374,
         "name": "Beldum",
         "kmBuddyDistance": 5,
         "candyCost": 125
     },
-     "Metang" : {
-        "dex": 375,
+    {
+        "id": 375,
         "name": "Metang",
         "kmBuddyDistance": 5,
         "candyCost": 100
     },
-     "Turtwig" : {
-        "dex": 387,
+    {
+        "id": 387,
         "name": "Turtwig",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Grotle" : {
-        "dex": 388,
+    {
+        "id": 388,
         "name": "Grotle",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Chimchar" : {
-        "dex": 390,
+    {
+        "id": 390,
         "name": "Chimchar",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Monferno" : {
-        "dex": 391,
+    {
+        "id": 391,
         "name": "Monferno",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Piplup" : {
-        "dex": 393,
+    {
+        "id": 393,
         "name": "Piplup",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Prinplup" : {
-        "dex": 394,
+    {
+        "id": 394,
         "name": "Prinplup",
         "kmBuddyDistance": 3,
         "candyCost": 100
     },
-     "Starly" : {
-        "dex": 396,
+    {
+        "id": 396,
         "name": "Starly",
         "kmBuddyDistance": 1,
         "candyCost": 125
     },
-     "Staravia" : {
-        "dex": 397,
+    {
+        "id": 397,
         "name": "Staravia",
         "kmBuddyDistance": 1,
         "candyCost": 100
     },
-     "Bidoof" : {
-        "dex": 399,
+    {
+        "id": 399,
         "name": "Bidoof",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Kricketot" : {
-        "dex": 401,
+    {
+        "id": 401,
         "name": "Kricketot",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Shinx" : {
-        "dex": 403,
+    {
+        "id": 403,
         "name": "Shinx",
         "kmBuddyDistance": 5,
         "candyCost": 125
     },
-     "Luxio" : {
-        "dex": 404,
+    {
+        "id": 404,
         "name": "Luxio",
         "kmBuddyDistance": 5,
         "candyCost": 100
     },
-     "Budew" : {
-        "dex": 406,
+    {
+        "id": 406,
         "name": "Budew",
         "kmBuddyDistance": 3,
         "candyCost": 125
     },
-     "Cranidos" : {
-        "dex": 408,
+    {
+        "id": 408,
         "name": "Cranidos",
         "kmBuddyDistance": 5,
         "candyCost": 50
     },
-     "Shieldon" : {
-        "dex": 410,
+    {
+        "id": 410,
         "name": "Shieldon",
         "kmBuddyDistance": 5,
         "candyCost": 50
     },
-     "Burmy" : {
-        "dex": 412,
+    {
+        "id": 412,
         "name": "Burmy",
         "kmBuddyDistance": 5,
         "candyCost": 50
     },
-     "Combee" : {
-        "dex": 415,
+    {
+        "id": 415,
         "name": "Combee",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Buizel" : {
-        "dex": 418,
+    {
+        "id": 418,
         "name": "Buizel",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Cherubi" : {
-        "dex": 420,
+    {
+        "id": 420,
         "name": "Cherubi",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Shellos" : {
-        "dex": 422,
+    {
+        "id": 422,
         "name": "Shellos",
         "kmBuddyDistance": 5,
         "candyCost": 50
     },
-     "Drifloon" : {
-        "dex": 425,
+    {
+        "id": 425,
         "name": "Drifloon",
         "kmBuddyDistance": 5,
         "candyCost": 50
     },
-     "Buneary" : {
-        "dex": 427,
+    {
+        "id": 427,
         "name": "Buneary",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Glameow" : {
-        "dex": 431,
+    {
+        "id": 431,
         "name": "Glameow",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Chingling" : {
-        "dex": 433,
+    {
+        "id": 433,
         "name": "Chingling",
         "kmBuddyDistance": 5,
         "candyCost": 50
     },
-     "Stunky" : {
-        "dex": 434,
+    {
+        "id": 434,
         "name": "Stunky",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Bronzor" : {
-        "dex": 436,
+    {
+        "id": 436,
         "name": "Bronzor",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Bonsly" : {
-        "dex": 438,
+    {
+        "id": 438,
         "name": "Bonsly",
         "kmBuddyDistance": 5,
         "candyCost": 50
     },
-     "Mime Jr" : {
-        "dex": 439,
+    {
+        "id": 439,
         "name": "Mime Jr",
         "kmBuddyDistance": 5,
         "candyCost": 50
     },
-     "Happiny" : {
-        "dex": 440,
+    {
+        "id": 440,
         "name": "Happiny",
         "kmBuddyDistance": 5,
         "candyCost": 75
     },
-     "Gible" : {
-        "dex": 443,
+    {
+        "id": 443,
         "name": "Gible",
         "kmBuddyDistance": 5,
         "candyCost": 125
     },
-     "Gabite" : {
-        "dex": 444,
+    {
+        "id": 444,
         "name": "Gabite",
         "kmBuddyDistance": 5,
         "candyCost": 100
     },
-     "Munchlax" : {
-        "dex": 446,
+    {
+        "id": 446,
         "name": "Munchlax",
         "kmBuddyDistance": 5,
         "candyCost": 50
     },
-     "Riolu" : {
-        "dex": 447,
+    {
+        "id": 447,
         "name": "Riolu",
         "kmBuddyDistance": 5,
         "candyCost": 50
     },
-     "Hippopotas" : {
-        "dex": 449,
+    {
+        "id": 449,
         "name": "Hippopotas",
         "kmBuddyDistance": 1,
         "candyCost": 50
     },
-     "Skorupi" : {
-        "dex": 451,
+    {
+        "id": 451,
         "name": "Skorupi",
         "kmBuddyDistance": 5,
         "candyCost": 50
     },
-     "Croagunk" : {
-        "dex": 453,
+    {
+        "id": 453,
         "name": "Croagunk",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Finneon" : {
-        "dex": 456,
+    {
+        "id": 456,
         "name": "Finneon",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Mantyke" : {
-        "dex": 458,
+    {
+        "id": 458,
         "name": "Mantyke",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Snover" : {
-        "dex": 459,
+    {
+        "id": 459,
         "name": "Snover",
         "kmBuddyDistance": 3,
         "candyCost": 50
     },
-     "Meltan" : {
-        "dex": 808,
+    {
+        "id": 808,
         "name": "Meltan",
         "kmBuddyDistance": 20,
         "candyCost": 400
     }
-}
+]

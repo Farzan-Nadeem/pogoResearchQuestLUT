@@ -3,7 +3,7 @@ import { View, Text, Button, StyleSheet } from 'react-native';
 import SearchableDropdown from 'react-native-searchable-dropdown';
 import NumericInput from 'react-native-numeric-input'
 
-const pokemonList = require('./pokemon_list.json');
+const pokemonList = require('./candy_tracker_static.json');
 
 export default class AddPokemonTrackerActivity extends Component {
     static navigationOptions = {
@@ -28,7 +28,7 @@ export default class AddPokemonTrackerActivity extends Component {
                 <Text style={styles.textStyle}>Pokemon Name</Text>
 
                 <SearchableDropdown
-                    onItemSelect={item => this.setState({ pokemonChosen: item.name })}
+                    onItemSelect={item => this.setState({ pokemonChosen: item.name, kmBuddyDistance: item.kmBuddyDistance, candyCost: item.candyCost })}
                     containerStyle={{ padding: 5 }}
                     textInputStyle={{
                         padding: 12,
