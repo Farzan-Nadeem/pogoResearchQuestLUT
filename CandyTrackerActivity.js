@@ -17,7 +17,7 @@ export default class CandyTrackerActivity extends Component {
         super(props);
 
         this.state = {
-            FlatListItems: [{pokeName:"Pokemon", candyRemaining:"Candy Remaining", distanceRemaining:"Distance Remaining"}],
+            FlatListItems: [],
         };
 
         db.transaction(tx => {
@@ -31,6 +31,13 @@ export default class CandyTrackerActivity extends Component {
                     }
                        );
                 }
+
+                temp = temp.sort(function(a, b) { 
+                    return a.distanceRemaining > b.distanceRemaining
+                });
+
+                temp.unshift({pokeName:"Pokemon", candyRemaining:"Candy Remaining", distanceRemaining:"Distance Remaining"});
+
                 this.setState({
                     FlatListItems: temp,
                 });
