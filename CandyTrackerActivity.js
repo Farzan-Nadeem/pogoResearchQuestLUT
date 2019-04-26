@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, FlatList, Modal, Button, Text, View, TouchableHighlight } from 'react-native';
+import { StyleSheet, FlatList, Modal, Button, Text, View, TouchableHighlight, Alert } from 'react-native';
 import NumericInput from 'react-native-numeric-input';
 import CandyTrack from './CandyTrack.js';
 import { openDatabase } from 'react-native-sqlite-storage';
@@ -68,12 +68,13 @@ export default class CandyTrackerActivity extends Component {
     render() {
         return (
             <View style={styles.container}>
+                <Text></Text>
                 <View style={styles.buttonContainer}>
                     <Button type='outline' color='darkslategrey' style={styles.buttonStyle}
                         onPress={this.OpenAddPokemonTrackerActivity} title='Add Tracker!' />
                 </View>
 
-                <Text>{"\n"}</Text>
+                <Text style={{ marginLeft: 10, marginRight: 10 }}>Tap a row to edit data! Pull to refresh after edits!{"\n"}</Text>
 
                 <FlatList
                     data={this.state.FlatListItems}
@@ -145,14 +146,24 @@ export default class CandyTrackerActivity extends Component {
     }
 
     deleteTracker() {
-        db.transaction(tx => {
-            tx.executeSql("DELETE FROM UserCandy where pokemon_name like ?",
-                [this.state.pokeInQuestion]);
-        });
-
-        this.setState({
-            modalVisible: false
-        });
+        Alert.alert(
+            'Wait!',
+            'Do you really want to delete this tracker?',
+            [
+                {text: "No"},
+                {text: "Yes", onPress: () => {
+                    db.transaction(tx => {
+                        tx.executeSql("DELETE FROM UserCandy where pokemon_name like ?",
+                            [this.state.pokeInQuestion]);
+                    });
+        
+                    this.setState({
+                        modalVisible: false
+                    });
+                }}
+            ], 
+            {cancelable: false},
+        ) 
     }
 }
 
