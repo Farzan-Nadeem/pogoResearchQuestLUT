@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, Button, StyleSheet, Alert } from 'react-native';
+import { View, Text, Button, StyleSheet, Alert, ScrollView } from 'react-native';
 import SearchableDropdown from 'react-native-searchable-dropdown';
 import NumericInput from 'react-native-numeric-input';
 import { openDatabase } from 'react-native-sqlite-storage';
@@ -30,6 +30,7 @@ export default class AddPokemonTrackerActivity extends Component {
     render() {
         return (
             <View style={styles.container}>
+            <ScrollView>
                 <Text style={{ fontSize: 22, fontWeight: 'bold' }}>Pokemon Details{"\n"}</Text>
 
                 <Text style={styles.textStyle}>Pokemon Name</Text>
@@ -67,6 +68,25 @@ export default class AddPokemonTrackerActivity extends Component {
                         initValue={this.state.currentCandy}
                         value={this.state.currentCandy}
                         onChange={(currentCandy) => this.setState({ "currentCandy": currentCandy })}
+                        totalWidth={200}
+                        rounded
+                        textColor='#103900'
+                        iconStyle={{ color: 'white' }}
+                        rightButtonBackgroundColor='#06BA63'
+                        leftButtonBackgroundColor='#06BA63'
+                        alignSelf='center' />
+                </View>
+
+
+                <Text style={styles.textStyle}>{"\n"}Total Candy Needed
+        
+{"\n"}</Text>
+
+                <View style={{ alignSelf: 'center', justifyContent: 'center' }}>
+                    <NumericInput
+                        initValue={this.state.candyCost}
+                        value={this.state.candyCost}
+                        onChange={(candyCost) => this.setState({ "candyCost": candyCost })}
                         totalWidth={200}
                         rounded
                         textColor='#103900'
@@ -130,6 +150,7 @@ export default class AddPokemonTrackerActivity extends Component {
                         })
                     }} title="Add Tracker!"
                 />
+                        </ScrollView>
             </View>
         )
     }
