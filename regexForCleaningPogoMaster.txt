@@ -1,0 +1,8 @@
+(("camera"|"encounter"|"moveSettings"|"stats"|"thirdMove"): ([^}])*\}(,)?)|(("quickMoves"|"cinematicMoves"|"animationTime"|"buddyPortraitOffset"|"evolutionBranch"|"evolutionIds"|"buddyOffsetMale"|"buddyOffsetFemale"|"combatShoulderCameraAngle"|"combatDefaultCameraAngle"|"combatPlayerFocusCameraAngle"): ([^]])*\](,)?)|("modelScale"|"type|"evolutionPips"|"modelHeight"|"pokedexHeight|"PokedexWeight|"parentPokemonId"|"heightStdDev"|"weightStdDev"|"familyId"|"buddySize"|"modelHeight"|"modelScaleV2"|"buddyScale"|"buddyScale"|"templateId"|"isDeployable"|"rarity"|"pokemonSettings"|"isTransferable")(.)*|(\{(\s)*\},)|(\}[^,])
+
+
+
+instr
+run regex  replace to empty
+remove empty lines -> edit -> line ops -> remove empty lines with blank character
+run regex replace to empty 

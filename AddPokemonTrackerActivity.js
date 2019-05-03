@@ -78,10 +78,7 @@ export default class AddPokemonTrackerActivity extends Component {
                 </View>
 
 
-                <Text style={styles.textStyle}>{"\n"}Total Candy Needed
-        
-{"\n"}</Text>
-
+                <Text style={styles.textStyle}>{"\n"}Total Candy Needed{"\n"}</Text>
                 <View style={{ alignSelf: 'center', justifyContent: 'center' }}>
                     <NumericInput
                         initValue={this.state.candyCost}
@@ -96,6 +93,22 @@ export default class AddPokemonTrackerActivity extends Component {
                         alignSelf='center' />
                 </View>
 
+                <Text style={styles.textStyle}>{"\n"}Buddy Distance per Candy{"\n"}</Text>
+                <View style={{ alignSelf: 'center', justifyContent: 'center' }}>
+                    <NumericInput
+                        initValue={this.state.kmBuddyDistance}
+                        value={this.state.candyCost}
+                        onChange={(kmBuddyDistance) => this.setState({ "kmBuddyDistance": kmBuddyDistance })}
+                        totalWidth={200}
+                        rounded
+                        textColor='#103900'
+                        iconStyle={{ color: 'white' }}
+                        rightButtonBackgroundColor='#06BA63'
+                        leftButtonBackgroundColor='#06BA63'
+                        alignSelf='center' />
+                </View>
+
+                
                 <Text>{"\n\n\n"}</Text>
 
                 <Button style={styles.buttonStyle} type='outline' color='darkslategrey'
